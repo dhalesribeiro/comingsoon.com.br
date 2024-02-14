@@ -29,7 +29,7 @@ npm run production
 ```
 Acesse o diretorio do projeto e execute o arquivo index.html em seu navegador para ver o resultado
 
-> Obs.: *É nescessario ter instalado e configurado o [nodejs com npm](https://nodejs.org/en/download) em seu servidor/ambiente de desenvolvimento.*
+> Obs.: *É nescessário ter instalado e configurado o [nodejs com npm](https://nodejs.org/en/download) em seu servidor/ambiente de desenvolvimento.*
 
 ## Contato
 
