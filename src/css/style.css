@@ -1,0 +1,69 @@
+/*
+ |********************************************************
+ | By Dhales Ribeiro
+ |********************************************************
+ | Style Css 
+ |********************************************************
+ */
+@font-face {
+    font-family: "ZonaPro";
+    src: url("../fonts/ZonaPro.otf") format("opentype");
+
+}
+
+@font-face {
+    font-family: "ZonaPro-Bold";
+    src: url("../fonts/ZonaPro-Bold.otf") format("opentype");
+
+}
+
+@font-face {
+    font-family: "ZonaPro-Light";
+    src: url("../fonts/ZonaPro-Light.otf") format("opentype");
+
+}
+
+.zonaPro-Light {
+    font-family: 'ZonaPro-Light';
+}
+
+.zonaPro-Bold {
+    font-family: 'ZonaPro-Bold';
+}
+
+.zonaPro {
+    font-family: 'ZonaPro';
+}
+
+
+.l-div{
+    background-color: #FFFFFF;
+    position: relative;
+    width: 10px;
+  }
+  
+  .l-div::before{
+    content: " ";
+    position: absolute;
+    background-color: #ECECEC;
+    width: 10px;
+    height: 40px;
+    left: 0px;
+    border-radius: 0px 100% 0px 0px;
+  }
+
+  .r-div{
+    background-color: #FFFFFF;
+    position: relative;
+    width: 10px;
+  }
+
+  .r-div::before{
+    content: " ";
+    position: absolute;
+    background-color: #ECECEC;
+    width: 10px;
+    height: 40px;
+    right: 0px;
+    border-radius: 100% 0% 0px 0px;
+  }
